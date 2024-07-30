@@ -1,12 +1,12 @@
 # Demo-API-Python-Application
- A demo showcasing a Kivy Python app and a RESTful API for educational purposes. Includes user management, transactions, and logging functionalities. Explore the live demo and learn. Ideal for learning API integration and backend development.
 
+A demo showcasing a Kivy Python app and a RESTful API for educational purposes. Includes user management, transactions, and logging functionalities. Explore the live demo and learn. Ideal for learning API integration and backend development.
 
 ## Overview
 
 This repository provides a demonstration of a RESTful API and a Kivy-based Python application designed to showcase how to integrate and interact with APIs. The demo application, which is available [live here](https://zofasoftwares.com/demo), serves as an educational tool for understanding API integration and basic application development.
 
-## Live Demo
+## Live Demo Api
 
 You can explore the live demo of the application at: [https://zofasoftwares.com/demo](https://zofasoftwares.com/demo)
 
@@ -17,6 +17,12 @@ To interact with the API, use the authentication token provided below:
 ```
 3b408cb48548b5037822c10eb0976b3cbf2cee3bf9c708796bf03941fbecd80f
 ```
+
+## Demo Application Built On The Live Api
+
+For a hands-on experience, download and run the demo application executable from the following link:
+
+[Download Demo App (EXE)](https://raw.githubusercontent.com/omerktk/Demo-API-Python-Application/main/app_on_api/build/demo_app_live_working.exe)
 
 ## API Documentation
 
@@ -51,8 +57,6 @@ The API URL is: `http://localhost/demo/api`
 
 ## Local Setup
 
-
-
 ### PHP & MySQL Version
 
 For those interested in a PHP and MySQL implementation, use the provided API documentation to set up a local version of the API.
@@ -61,6 +65,9 @@ For those interested in a PHP and MySQL implementation, use the provided API doc
 
 1. Clone the repository.
 2. Install required dependencies using:
+    ```bash
+    pip install -r requirements.txt
+    ```
 3. Run the Kivy application:
     ```bash
     python app.py
@@ -81,7 +88,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-For any questions or support, please contact omerktk876@gmail.com .
+For any questions or support, please contact omerktk876@gmail.com.
 
 ---
 
