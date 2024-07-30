@@ -64,9 +64,11 @@
    <body>
       <div class="container">
          <h1 class="my-4">API Documentation</h1>
+        <p>Welcome to the API documentation. Below are the available endpoints. Use the <strong>Test</strong> buttons to try them out.</br>
+The API URL is: <code><?php echo htmlspecialchars((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' ? 'https://' : 'http://') . $_SERVER['HTTP_HOST'] . '/demo/api'); ?></code></br>
+
          <?php if (!$authValid): ?>
-         <p>Welcome to the API documentation. Below are the available endpoints. Use the <strong>Test</strong> buttons to try them out.</br>
-            The API URL is: <code><?php echo htmlspecialchars((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' ? 'https://' : 'http://') . $_SERVER['HTTP_HOST'] . '/demo/api'); ?></code>
+         
          </p>
          <div class="alert alert-danger" role="alert">
             <h4 class="alert-heading">Authentication Required</h4>
@@ -80,8 +82,7 @@
             </form>
          </div>
          <?php else: ?>
-         <p>Welcome to the API documentation. Below are the available endpoints. Use the <strong>Test</strong> buttons to try them out.</br>
-            The API URL is: <code><?php echo htmlspecialchars((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' ? 'https://' : 'http://') . $_SERVER['HTTP_HOST'] . '/demo/api'); ?></code>
+         
          </p>
          <div id="accordion">
             <div class="card">
@@ -255,6 +256,8 @@
             </br>
          </div>
          <?php endif; ?>
+         </br>
+          For more details and source code, visit our GitHub repository: <a target="_blank" href="https://github.com/omerktk/Demo-API-Python-Application">Demo API Python Application</a></p>
       </div>
       <script>
          function openModal(url, data) {
