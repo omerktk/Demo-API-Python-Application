@@ -1,0 +1,43 @@
+**App Development Prompt:**
+
+**Objective:**
+
+Develop a web application with the following features:
+
+1. **Login Page:**
+   - Users will start at a login page.
+   - Implement authentication based on a username and password.
+   - Upon successful login, users will be redirected to the dashboard.
+
+2. **Dashboard:**
+   - The dashboard will have four buttons: "Users," "Transactions," "Logs," and "Logout."
+   - Each button will lead to a respective section of the application.
+
+3. **Users Section:**
+   - **CRUD Operations:** Users will be able to Create, Read, Update, and Delete user accounts.
+   - To create a new user:
+     - Collect the username and password.
+     - Convert these credentials into an authentication token.
+     - Save the user’s full name along with the token.
+   - Display a list of users with options to update or delete each user.
+
+4. **Transactions Section:**
+   - **CRUD Operations:** Users will be able to Create, Read, Update, and Delete transactions.
+   - Each transaction will be linked to a user.
+   - Provide a form to input transaction details and options to view, update, or delete transactions.
+
+5. **Logs Section:**
+   - **Read-Only Access:** Display a list of logs.
+   - Each log entry will record actions performed by users (e.g., creation, updates, deletions).
+   - The logs should be sorted and viewable in a user-friendly format.
+
+6. **Logging Actions:**
+   - Every user action (e.g., creating a new user, updating a transaction) will be recorded in the logs.
+   - Ensure that log entries are automatically updated with relevant details when actions are performed.
+
+**Additional Requirements:**
+
+- Ensure secure handling of authentication and user data.
+- Implement responsive design for usability on various devices.
+- Provide clear error messages and validation feedback.
+
