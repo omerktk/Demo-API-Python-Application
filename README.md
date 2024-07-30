@@ -28,7 +28,6 @@ The API URL is: `http://localhost/demo/api`
 - **Method:** POST
 - **Request JSON:** `{"token": "your_token_here"}`
 - **Success Response:** `{"status": "success"}`
-- **Error Response:** `{"status": "failure", "message": "Invalid token"}`
 
 ### Users
 
@@ -52,21 +51,20 @@ The API URL is: `http://localhost/demo/api`
 
 ## Local Setup
 
-### Python Application
 
-1. Clone the repository.
-2. Install required dependencies using:
-    ```bash
-    pip install -r requirements.txt
-    ```
-3. Run the Kivy application:
-    ```bash
-    python main.py
-    ```
 
 ### PHP & MySQL Version
 
 For those interested in a PHP and MySQL implementation, use the provided API documentation to set up a local version of the API.
+
+### Python Application
+
+1. Clone the repository.
+2. Install required dependencies using:
+3. Run the Kivy application:
+    ```bash
+    python app.py
+    ```
 
 ## How to Use
 
@@ -83,7 +81,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-For any questions or support, please contact [your email address].
+For any questions or support, please contact omerktk876@gmail.com .
 
 ---
 
