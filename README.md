@@ -4,11 +4,11 @@ A demo showcasing a Kivy Python app and a RESTful API for educational purposes. 
 
 ## Overview
 
-This repository provides a demonstration of a RESTful API and a Kivy-based Python application designed to showcase how to integrate and interact with APIs. The demo application, which is available [live here](https://zofasoftwares.com/demo), serves as an educational tool for understanding API integration and basic application development.
+This repository provides a demonstration of a RESTful API and a Kivy-based Python application designed to showcase how to integrate and interact with APIs. The demo application, which is available [live here](https://zofasoftwares.com/demo){:target="_blank"}, serves as an educational tool for understanding API integration and basic application development.
 
 ## Live Demo Api
 
-You can explore the live demo of the application at: [https://zofasoftwares.com/demo](https://zofasoftwares.com/demo)
+You can explore the live demo of the application at: [https://zofasoftwares.com/demo](https://zofasoftwares.com/demo){:target="_blank"}
 
 ### Authentication Token
 
@@ -22,7 +22,7 @@ To interact with the API, use the authentication token provided below:
 
 For a hands-on experience, download and run the demo application executable from the following link:
 
-[Download Demo App (EXE)](https://raw.githubusercontent.com/omerktk/Demo-API-Python-Application/main/app_on_api/build/demo_app_live_working.exe)
+[Download Demo App (EXE)](https://raw.githubusercontent.com/omerktk/Demo-API-Python-Application/main/app_on_api/build/demo_app_live_working.exe){:target="_blank"}
 
 ## API Documentation
 
@@ -84,11 +84,11 @@ Feel free to fork this repository, contribute, and submit pull requests. Your fe
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE){:target="_blank"} file for details.
 
 ## Contact
 
-For any questions or support, please contact omerktk876@gmail.com.
+For any questions or support, please contact [omektk876@gmail.com](mailto:omektk876@gmail.com){:target="_blank"}.
 
 ---
 
