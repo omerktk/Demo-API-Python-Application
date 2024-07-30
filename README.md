@@ -86,4 +86,3 @@ For any questions or support, please contact omerktk876@gmail.com .
 ---
 
 This project is intended for educational purposes and demonstrates basic API and application integration concepts. For more detailed implementation, refer to the provided API documentation and application code.
-```
